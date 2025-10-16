@@ -1,0 +1,7 @@
+python-dotenv
+fastapi[standard]
+
+requests
+PyJWT
+cryptography
+httpx
