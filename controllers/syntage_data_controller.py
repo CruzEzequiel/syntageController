@@ -365,3 +365,30 @@ async def get_sales_revenue(business_id: str):
         raise HTTPException(status_code=e.response.status_code, detail=f"Error from external API: {e}")
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error fetching data: {e}")
+    
+@router.get("/trial-balance/{business_id}")
+async def get_trial_balance(business_id: str):
+    try:
+        api_key = os.getenv("SYNTAGE_API_KEY")
+        if not api_key:
+            raise HTTPException(status_code=500, detail="API key not configured")
+
+        url = f"https://api.sandbox.syntage.com/insights/{business_id}/trial-balance"
+        headers = {"X-API-Key": api_key}
+        
+        # Verificar cache
+        cached_data = cache.get(url)
+        if cached_data is not None:
+            return cached_data
+        
+        async with httpx.AsyncClient() as client:
+            response = await client.get(url, headers=headers)
+            response.raise_for_status()
+            data = response.json()
+            # Cachear la respuesta
+            cache.set(url, data)
+            return data
+    except httpx.HTTPStatusError as e:
+        raise HTTPException(status_code=e.response.status_code, detail=f"Error from external API: {e}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error fetching data: {e}")
