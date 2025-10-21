@@ -1,1461 +1,4 @@
 {
-    "https://api.sandbox.syntage.com/extractions": {
-        "value": {
-            "@context": "/contexts/Extraction",
-            "@id": "/extractions",
-            "@type": "hydra:Collection",
-            "hydra:totalItems": 10,
-            "hydra:member": [
-                {
-                    "@id": "/extractions/9ecb32bb-19b4-4c68-b24d-894e9ed337ab",
-                    "@type": "Extraction",
-                    "id": "9ecb32bb-19b4-4c68-b24d-894e9ed337ab",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/rpc",
-                        "@type": "Datasource",
-                        "name": "rpc",
-                        "public": true,
-                        "private": false,
-                        "optionsRequired": false
-                    },
-                    "extractor": "rpc",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:33",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "TAXPAYER_NAME"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": [],
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4ba5-41b3-887f-e680d60a3b87",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4ba5-41b3-887f-e680d60a3b87",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "rpc",
-                        "options": [],
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:30",
-                    "finishedAt": "2025-04-29 19:41:32",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32bb-121c-4c75-b73e-0bcc1bf405fe",
-                    "@type": "Extraction",
-                    "id": "9ecb32bb-121c-4c75-b73e-0bcc1bf405fe",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "electronic_accounting",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:50",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": {
-                        "period": {
-                            "to": "2025-04-29 19:41:06",
-                            "from": "2022-01-01 00:00:00"
-                        }
-                    },
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4ba3-4ddd-bf68-cfd2347da393",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4ba3-4ddd-bf68-cfd2347da393",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "electronic_accounting",
-                        "options": {
-                            "period": {
-                                "to": "now",
-                                "from": "-3 years"
-                            }
-                        },
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:30",
-                    "finishedAt": "2025-04-29 19:41:49",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32bb-091b-41e8-8bda-dfb3465396fc",
-                    "@type": "Extraction",
-                    "id": "9ecb32bb-091b-41e8-8bda-dfb3465396fc",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "tax_compliance",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:29",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": [],
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4ba1-4ec7-af7a-11cf8762e637",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4ba1-4ec7-af7a-11cf8762e637",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "tax_compliance",
-                        "options": [],
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:27",
-                    "finishedAt": "2025-04-29 19:41:29",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32bb-020a-4755-a7ac-b69b2f48d25a",
-                    "@type": "Extraction",
-                    "id": "9ecb32bb-020a-4755-a7ac-b69b2f48d25a",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "monthly_tax_return",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:54",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": {
-                        "files": {
-                            "tax_return.transcript": true,
-                            "tax_return.ack_receipt": true,
-                            "tax_return.payment_receipt": true,
-                            "tax_return.financial_statements": true
-                        },
-                        "annual": true,
-                        "period": {
-                            "to": "2025-04-29 19:41:06",
-                            "from": "2022-01-01 00:00:00"
-                        },
-                        "provisional": true
-                    },
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4ba0-4fa3-b67b-7926862c1f7a",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4ba0-4fa3-b67b-7926862c1f7a",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "monthly_tax_return",
-                        "options": {
-                            "period": {
-                                "to": "now",
-                                "from": "-3 years"
-                            }
-                        },
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:27",
-                    "finishedAt": "2025-04-29 19:41:53",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32ba-f912-4a21-ba7c-923f3621b41f",
-                    "@type": "Extraction",
-                    "id": "9ecb32ba-f912-4a21-ba7c-923f3621b41f",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "annual_tax_return",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:33",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": {
-                        "files": {
-                            "tax_return.transcript": true,
-                            "tax_return.ack_receipt": true,
-                            "tax_return.payment_receipt": true,
-                            "tax_return.financial_statements": true
-                        },
-                        "annual": true,
-                        "period": {
-                            "to": "2025-04-29 19:41:06",
-                            "from": "2022-01-01 00:00:00"
-                        },
-                        "provisional": true
-                    },
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4b9e-45c1-b5c5-e460cbc32f4d",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4b9e-45c1-b5c5-e460cbc32f4d",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "annual_tax_return",
-                        "options": {
-                            "period": {
-                                "to": "now",
-                                "from": "-3 years"
-                            }
-                        },
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:27",
-                    "finishedAt": "2025-04-29 19:41:32",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32ba-f1fb-4ec7-960c-df546e6bcea1",
-                    "@type": "Extraction",
-                    "id": "9ecb32ba-f1fb-4ec7-960c-df546e6bcea1",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "tax_retention",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:39",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": {
-                        "pdf": true,
-                        "xml": true,
-                        "issued": true,
-                        "period": {
-                            "to": "2025-04-29 19:41:06",
-                            "from": "2022-01-01 00:00:00"
-                        },
-                        "received": true,
-                        "complement": -1
-                    },
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4b9c-427a-9d46-d5baff65988a",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4b9c-427a-9d46-d5baff65988a",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "tax_retention",
-                        "options": {
-                            "period": {
-                                "to": "now",
-                                "from": "-3 years"
-                            }
-                        },
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:23",
-                    "finishedAt": "2025-04-29 19:41:38",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32ba-ea7e-4995-9eae-86deff4a5278",
-                    "@type": "Extraction",
-                    "id": "9ecb32ba-ea7e-4995-9eae-86deff4a5278",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "rif_tax_return",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:23",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": {
-                        "period": {
-                            "to": "2025-04-29 19:41:06",
-                            "from": "2022-01-01 00:00:00"
-                        }
-                    },
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4b9a-4bde-aadb-22a0fdfb1887",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4b9a-4bde-aadb-22a0fdfb1887",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "rif_tax_return",
-                        "options": {
-                            "period": {
-                                "to": "now",
-                                "from": "-3 years"
-                            }
-                        },
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:22",
-                    "finishedAt": "2025-04-29 19:41:22",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32ba-e363-455a-8b09-12755ad68ddf",
-                    "@type": "Extraction",
-                    "id": "9ecb32ba-e363-455a-8b09-12755ad68ddf",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "tax_status",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:18",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": [],
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4b98-426e-8772-018d5ae257f6",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4b98-426e-8772-018d5ae257f6",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "tax_status",
-                        "options": [],
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:16",
-                    "finishedAt": "2025-04-29 19:41:18",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32ba-d9fa-453b-9c1e-860fa87d6ce0",
-                    "@type": "Extraction",
-                    "id": "9ecb32ba-d9fa-453b-9c1e-860fa87d6ce0",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "invoice",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:21",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": {
-                        "pdf": true,
-                        "xml": true,
-                        "types": [
-                            "I",
-                            "E",
-                            "P",
-                            "N",
-                            "T"
-                        ],
-                        "issued": false,
-                        "period": {
-                            "to": "2025-04-29 19:41:06",
-                            "from": "2022-01-01 00:00:00"
-                        },
-                        "received": true,
-                        "complement": -1
-                    },
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4b96-4329-a493-3d65d0ecfdff",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4b96-4329-a493-3d65d0ecfdff",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "invoice",
-                        "options": {
-                            "types": [
-                                "I",
-                                "E",
-                                "P",
-                                "N",
-                                "T"
-                            ],
-                            "issued": false,
-                            "period": {
-                                "to": "now",
-                                "from": "-3 years"
-                            },
-                            "received": true
-                        },
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:16",
-                    "finishedAt": "2025-04-29 19:41:20",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                },
-                {
-                    "@id": "/extractions/9ecb32ba-cde9-4f69-a478-0a5a268ee876",
-                    "@type": "Extraction",
-                    "id": "9ecb32ba-cde9-4f69-a478-0a5a268ee876",
-                    "link": {
-                        "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "@type": "Link",
-                        "id": "9ecb32ba-c10e-4d57-9e43-d42769d90cb1",
-                        "type": "company",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "addedBy": null,
-                        "owner": null,
-                        "taxpayer": {
-                            "@id": "/taxpayers/SSD1912102V8",
-                            "@type": "Taxpayer",
-                            "id": "SSD1912102V8",
-                            "personType": "legal",
-                            "registrationDate": "2019-12-10 00:00:00",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                            "createdAt": "2024-05-06 16:10:05",
-                            "updatedAt": "2024-05-06 16:10:05"
-                        },
-                        "credential": {
-                            "@id": "/credentials/9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "@type": "Credential",
-                            "id": "9ecb3242-aeb9-4388-aff2-5ba5e280ea7e",
-                            "type": "ciec",
-                            "rfc": "SSD1912102V8",
-                            "status": "valid",
-                            "metadata": [],
-                            "createdAt": "2025-04-29 19:39:47",
-                            "updatedAt": "2025-04-29 19:41:06",
-                            "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V."
-                        },
-                        "tags": [],
-                        "sample": false,
-                        "onboardingId": "9ecb32ba-c10c-4718-b8bc-c69bacd3b73b",
-                        "createdAt": "2025-04-29 19:41:06",
-                        "updatedAt": "2025-04-29 19:41:06"
-                    },
-                    "datasource": {
-                        "@id": "/datasources/sat",
-                        "@type": "Datasource",
-                        "name": "sat",
-                        "public": false,
-                        "private": true,
-                        "optionsRequired": false
-                    },
-                    "extractor": "invoice",
-                    "createdAt": "2025-04-29 19:41:06",
-                    "updatedAt": "2025-04-29 19:41:22",
-                    "requirements": {
-                        "@id": "/requirements",
-                        "@type": "Requirements",
-                        "met": [
-                            "SAT_CREDENTIALS"
-                        ],
-                        "unmet": []
-                    },
-                    "status": "finished",
-                    "workflowStatus": "none",
-                    "options": {
-                        "pdf": true,
-                        "xml": true,
-                        "types": [
-                            "I",
-                            "E",
-                            "P",
-                            "N",
-                            "T"
-                        ],
-                        "issued": true,
-                        "period": {
-                            "to": "2025-04-29 19:41:06",
-                            "from": "2022-01-01 00:00:00"
-                        },
-                        "received": false,
-                        "complement": -1
-                    },
-                    "taxpayer": {
-                        "@id": "/taxpayers/SSD1912102V8",
-                        "@type": "Taxpayer",
-                        "id": "SSD1912102V8",
-                        "personType": "legal",
-                        "registrationDate": "2019-12-10 00:00:00",
-                        "name": "SynMed Equipos M\u00e9dico S.A.P.I. DE C.V.",
-                        "createdAt": "2024-05-06 16:10:05",
-                        "updatedAt": "2024-05-06 16:10:05"
-                    },
-                    "schedulerRule": {
-                        "@id": "/schedulers/rules/9e94e007-4b8f-4895-ba59-0db356d3683e",
-                        "@type": "SchedulerRule",
-                        "id": "9e94e007-4b8f-4895-ba59-0db356d3683e",
-                        "scheduler": {
-                            "@id": "/schedulers/9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "@type": "Scheduler",
-                            "id": "9e94e007-468c-4359-bc88-c6631b05afe4",
-                            "createdAt": "2025-04-02 19:35:09",
-                            "updatedAt": "2025-04-02 19:35:09"
-                        },
-                        "extractor": "invoice",
-                        "options": {
-                            "types": [
-                                "I",
-                                "E",
-                                "P",
-                                "N",
-                                "T"
-                            ],
-                            "issued": true,
-                            "period": {
-                                "to": "now",
-                                "from": "-3 years"
-                            },
-                            "received": false
-                        },
-                        "cronExpression": null,
-                        "nextRunDate": null,
-                        "createdAt": "2025-04-02 19:35:09",
-                        "updatedAt": "2025-04-02 19:35:09"
-                    },
-                    "startedAt": "2025-04-29 19:41:16",
-                    "finishedAt": "2025-04-29 19:41:21",
-                    "rateLimitedAt": null,
-                    "retries": 0,
-                    "nextAttemptAt": null,
-                    "totalDataPoints": 0,
-                    "createdDataPoints": 0,
-                    "updatedDataPoints": 0,
-                    "errorCode": null,
-                    "metadata": [],
-                    "createdBy": null,
-                    "onboardingUrl": null
-                }
-            ],
-            "hydra:search": {
-                "@type": "hydra:IriTemplate",
-                "hydra:template": "/extractions{?properties[],exists[rateLimitedAt],id[between],id[gt],id[gte],id[lt],id[lte],id,id[],order[id],order[startedAt],order[finishedAt],order[billingDate],order[createdAt],link.taxpayer.id,link.taxpayer.id[],link.name,extractor,extractor[],taxpayer.id,taxpayer.id[],status,status[],datasource,datasource[],createdBy.email,startedAt[before],startedAt[strictly_before],startedAt[after],startedAt[strictly_after],finishedAt[before],finishedAt[strictly_before],finishedAt[after],finishedAt[strictly_after],billingDate[before],billingDate[strictly_before],billingDate[after],billingDate[strictly_after],createdAt[before],createdAt[strictly_before],createdAt[after],createdAt[strictly_after],updatedAt[before],updatedAt[strictly_before],updatedAt[after],updatedAt[strictly_after]}",
-                "hydra:variableRepresentation": "BasicRepresentation",
-                "hydra:mapping": [
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "properties[]",
-                        "property": null,
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "exists[rateLimitedAt]",
-                        "property": "rateLimitedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "id[between]",
-                        "property": "id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "id[gt]",
-                        "property": "id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "id[gte]",
-                        "property": "id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "id[lt]",
-                        "property": "id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "id[lte]",
-                        "property": "id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "id",
-                        "property": "id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "id[]",
-                        "property": "id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "order[id]",
-                        "property": "id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "order[startedAt]",
-                        "property": "startedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "order[finishedAt]",
-                        "property": "finishedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "order[billingDate]",
-                        "property": "billingDate",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "order[createdAt]",
-                        "property": "createdAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "link.taxpayer.id",
-                        "property": "link.taxpayer.id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "link.taxpayer.id[]",
-                        "property": "link.taxpayer.id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "link.name",
-                        "property": "link.name",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "extractor",
-                        "property": "extractor",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "extractor[]",
-                        "property": "extractor",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "taxpayer.id",
-                        "property": "taxpayer.id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "taxpayer.id[]",
-                        "property": "taxpayer.id",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "status",
-                        "property": "status",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "status[]",
-                        "property": "status",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "datasource",
-                        "property": "datasource",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "datasource[]",
-                        "property": "datasource",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "createdBy.email",
-                        "property": "createdBy.email",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "startedAt[before]",
-                        "property": "startedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "startedAt[strictly_before]",
-                        "property": "startedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "startedAt[after]",
-                        "property": "startedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "startedAt[strictly_after]",
-                        "property": "startedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "finishedAt[before]",
-                        "property": "finishedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "finishedAt[strictly_before]",
-                        "property": "finishedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "finishedAt[after]",
-                        "property": "finishedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "finishedAt[strictly_after]",
-                        "property": "finishedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "billingDate[before]",
-                        "property": "billingDate",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "billingDate[strictly_before]",
-                        "property": "billingDate",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "billingDate[after]",
-                        "property": "billingDate",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "billingDate[strictly_after]",
-                        "property": "billingDate",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "createdAt[before]",
-                        "property": "createdAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "createdAt[strictly_before]",
-                        "property": "createdAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "createdAt[after]",
-                        "property": "createdAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "createdAt[strictly_after]",
-                        "property": "createdAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "updatedAt[before]",
-                        "property": "updatedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "updatedAt[strictly_before]",
-                        "property": "updatedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "updatedAt[after]",
-                        "property": "updatedAt",
-                        "required": false
-                    },
-                    {
-                        "@type": "IriTemplateMapping",
-                        "variable": "updatedAt[strictly_after]",
-                        "property": "updatedAt",
-                        "required": false
-                    }
-                ]
-            }
-        },
-        "expiry": 1761019988.4801111
-    },
     "https://api.sandbox.syntage.com/entities": {
         "value": {
             "@context": "/contexts/Link",
@@ -1760,7 +303,38 @@
                 ]
             }
         },
-        "expiry": 1761020290.283921
+        "expiry": 1761021013.0487556
+    },
+    "https://api.sandbox.syntage.com/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/scores": {
+        "value": {
+            "@context": "/contexts/Scores",
+            "@id": "/.well-known/genid/8d9161bd762033e6de81",
+            "@type": "Scores",
+            "scores": [
+                {
+                    "@type": "ScoreBySource",
+                    "@id": "/.well-known/genid/51444746c4144c05c2dd",
+                    "id": null,
+                    "source": "syntage",
+                    "type": "internal",
+                    "score": null,
+                    "generatedAt": "2025-10-21T04:25:24+00:00",
+                    "metadata": {
+                        "calculation": {
+                            "message": "No se puede calcular",
+                            "status": "cannot-calculate",
+                            "reasons": [
+                                {
+                                    "message": "Datos de la Declaraci\u00f3n Anual encontrados pero incompletos",
+                                    "code": "annual_tax_return_missing_data"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "expiry": 1761021025.0611267
     },
     "https://api.sandbox.syntage.com/insights/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/summary": {
         "value": {
@@ -1788,221 +362,173 @@
             "blacklistStatus": null,
             "lastEfirmaCertificate": null
         },
-        "expiry": 1761020300.271859
+        "expiry": 1761021025.116482
     },
-    "https://api.sandbox.syntage.com/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/invoicing-annual-comparison": {
+    "https://api.sandbox.syntage.com/insights/SSD1912102V8/financial-ratios": {
         "value": {
-            "@context": "/contexts/GetInvoicingAnnualComparison",
-            "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/invoicing-annual-comparison",
-            "@type": "hydra:Collection",
-            "hydra:totalItems": 5,
-            "hydra:member": [
-                {
-                    "period": "2022",
-                    "totalIncome": null,
-                    "incomePaymentPending": null,
-                    "totalIncomeCancelled": null,
-                    "incomeDiscounts": null,
-                    "incomeCreditNotes": null,
-                    "netIncome": null,
-                    "incomeDueUponReceipt": null,
-                    "incomeDueOverTime": null,
-                    "collectedIncomeDueOverTime": null,
-                    "totalExpenses": null,
-                    "receivedPaymentPending": null,
-                    "totalExpensesCancelled": null,
-                    "expensesDiscounts": null,
-                    "expensesCreditNotes": null,
-                    "payroll": null,
-                    "netExpensesPlusPayroll": null,
-                    "margin": "0",
-                    "expensesDueUponReceipt": null,
-                    "expensesDueOverTime": null,
-                    "paidExpensesDueOverTime": null,
-                    "daysPayableOutstanding": null,
-                    "daysSalesOutstanding": null,
-                    "netExpenses": null,
-                    "profitOrLoss": null
+            "data": {
+                "liquidity": {
+                    "current_ratio": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "quick_ratio": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "cash_ratio": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "acid_test": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "working_capital": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "cash_to_assets": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "net_working_capital_to_sales": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    }
                 },
-                {
-                    "period": "2023",
-                    "totalIncome": null,
-                    "incomePaymentPending": null,
-                    "totalIncomeCancelled": null,
-                    "incomeDiscounts": null,
-                    "incomeCreditNotes": null,
-                    "netIncome": null,
-                    "incomeDueUponReceipt": null,
-                    "incomeDueOverTime": null,
-                    "collectedIncomeDueOverTime": null,
-                    "totalExpenses": null,
-                    "receivedPaymentPending": null,
-                    "totalExpensesCancelled": null,
-                    "expensesDiscounts": null,
-                    "expensesCreditNotes": null,
-                    "payroll": null,
-                    "netExpensesPlusPayroll": null,
-                    "margin": "0",
-                    "expensesDueUponReceipt": null,
-                    "expensesDueOverTime": null,
-                    "paidExpensesDueOverTime": null,
-                    "daysPayableOutstanding": null,
-                    "daysSalesOutstanding": null,
-                    "netExpenses": null,
-                    "profitOrLoss": null
+                "activity": {
+                    "days_inventory_outstanding": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "days_sales_outstanding": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "days_payable_outstanding": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "cash_conversion_cycle": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "total_asset_turnover": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "inventory_turnover": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "fixed_asset_turnover_ratio": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "sales_to_capital_employed": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "accounts_payable_payment_period": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "accounts_receivable_collection_period": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    }
                 },
-                {
-                    "period": "2024",
-                    "totalIncome": null,
-                    "incomePaymentPending": null,
-                    "totalIncomeCancelled": null,
-                    "incomeDiscounts": null,
-                    "incomeCreditNotes": null,
-                    "netIncome": null,
-                    "incomeDueUponReceipt": null,
-                    "incomeDueOverTime": null,
-                    "collectedIncomeDueOverTime": null,
-                    "totalExpenses": null,
-                    "receivedPaymentPending": null,
-                    "totalExpensesCancelled": null,
-                    "expensesDiscounts": null,
-                    "expensesCreditNotes": null,
-                    "payroll": null,
-                    "netExpensesPlusPayroll": null,
-                    "margin": "0",
-                    "expensesDueUponReceipt": null,
-                    "expensesDueOverTime": null,
-                    "paidExpensesDueOverTime": null,
-                    "daysPayableOutstanding": null,
-                    "daysSalesOutstanding": null,
-                    "netExpenses": null,
-                    "profitOrLoss": null
+                "profitability": {
+                    "return_on_assets": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "return_on_equity": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "return_on_sales": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "gross_profit_margin": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "return_on_investment": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    }
                 },
-                {
-                    "period": "2025",
-                    "totalIncome": "1560.19",
-                    "incomePaymentPending": "445.44",
-                    "totalIncomeCancelled": "0.00",
-                    "incomeDiscounts": "24.52",
-                    "incomeCreditNotes": "0.00",
-                    "netIncome": "1090.23",
-                    "incomeDueUponReceipt": "0.6237",
-                    "incomeDueOverTime": "0.3763",
-                    "collectedIncomeDueOverTime": "0.2083",
-                    "totalExpenses": "5396.11",
-                    "receivedPaymentPending": "2641.83",
-                    "totalExpensesCancelled": "0.00",
-                    "expensesDiscounts": "93.28",
-                    "expensesCreditNotes": "0.00",
-                    "payroll": "6249.91",
-                    "netExpensesPlusPayroll": "8910.91",
-                    "margin": "-7.1734",
-                    "expensesDueUponReceipt": "0.5779",
-                    "expensesDueOverTime": "0.4221",
-                    "paidExpensesDueOverTime": "0.0000",
-                    "daysPayableOutstanding": null,
-                    "daysSalesOutstanding": "-1.00",
-                    "netExpenses": "2661.00",
-                    "profitOrLoss": "-7820.68"
-                },
-                {
-                    "period": "Acumulado",
-                    "totalIncome": "1560.19",
-                    "incomePaymentPending": "445.44",
-                    "totalIncomeCancelled": "0.00",
-                    "incomeDiscounts": "24.52",
-                    "incomeCreditNotes": "0.00",
-                    "netIncome": "1090.23",
-                    "incomeDueUponReceipt": "0.6237",
-                    "incomeDueOverTime": "0.3763",
-                    "collectedIncomeDueOverTime": "0.2083",
-                    "totalExpenses": "5396.11",
-                    "receivedPaymentPending": "2641.83",
-                    "totalExpensesCancelled": "0.00",
-                    "expensesDiscounts": "93.28",
-                    "expensesCreditNotes": "0.00",
-                    "payroll": "6249.91",
-                    "netExpensesPlusPayroll": "8910.91",
-                    "margin": "-1.7934",
-                    "expensesDueUponReceipt": "0.5779",
-                    "expensesDueOverTime": "0.4221",
-                    "paidExpensesDueOverTime": "0.0000",
-                    "daysPayableOutstanding": null,
-                    "daysSalesOutstanding": "-1.00",
-                    "netExpenses": "2661.00",
-                    "profitOrLoss": "-7820.68"
-                }
-            ],
-            "hydra:search": {
-                "@type": "hydra:IriTemplate",
-                "hydra:template": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/invoicing-annual-comparison{?}",
-                "hydra:variableRepresentation": "BasicRepresentation",
-                "hydra:mapping": []
-            }
-        },
-        "expiry": 1761020300.2914467
-    },
-    "https://api.sandbox.syntage.com/insights/SSD1912102V8/cash-flow": {
-        "value": [
-            {
-                "type": "inflow",
-                "date": "2025/Apr",
-                "startDate": "2025-04-01",
-                "currency": "MXN",
-                "transactions": "1",
-                "amount": 1128.72,
-                "mxnAmount": 1128.72,
-                "groupName": "total"
-            },
-            {
-                "type": "outflow",
-                "date": "2025/Apr",
-                "startDate": "2025-04-01",
-                "currency": "MXN",
-                "transactions": "3",
-                "amount": 10616.6,
-                "mxnAmount": 10616.6,
-                "groupName": "total"
-            }
-        ],
-        "expiry": 1761020300.3130257
-    },
-    "https://api.sandbox.syntage.com/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/scores": {
-        "value": {
-            "@context": "/contexts/Scores",
-            "@id": "/.well-known/genid/a7509d6bc61735f56a26",
-            "@type": "Scores",
-            "scores": [
-                {
-                    "@type": "ScoreBySource",
-                    "@id": "/.well-known/genid/8c82a7114a13ee6d6e2a",
-                    "id": null,
-                    "source": "syntage",
-                    "type": "internal",
-                    "score": null,
-                    "generatedAt": "2025-10-21T04:13:20+00:00",
-                    "metadata": {
-                        "calculation": {
-                            "message": "No se puede calcular",
-                            "status": "cannot-calculate",
-                            "reasons": [
-                                {
-                                    "message": "Datos de la Declaraci\u00f3n Anual encontrados pero incompletos",
-                                    "code": "annual_tax_return_missing_data"
-                                }
-                            ]
-                        }
+                "leverage": {
+                    "total_debt_ratio": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "debt_equity_ratio": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "coverage": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "degree_of_financial_leverage": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "capital_intensity_ratio": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "solvency": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
+                    },
+                    "interest_expense_to_sales": {
+                        "2024": null,
+                        "2023": null,
+                        "2022": null
                     }
                 }
-            ]
+            }
         },
-        "expiry": 1761020300.3802898
+        "expiry": 1761021025.2307942
     },
     "https://api.sandbox.syntage.com/insights/SSD1912102V8/invoicing-blacklist": {
         "value": {
             "data": []
         },
-        "expiry": 1761020300.4148543
+        "expiry": 1761021025.3683646
     },
     "https://api.sandbox.syntage.com/insights/SSD1912102V8/expenditures": {
         "value": {
@@ -4567,7 +3093,1150 @@
                 }
             ]
         },
-        "expiry": 1761020300.42334
+        "expiry": 1761021025.4184554
+    },
+    "https://api.sandbox.syntage.com/insights/SSD1912102V8/employees": {
+        "value": {
+            "data": [
+                {
+                    "startDate": "2014-01-01",
+                    "date": "2014-01",
+                    "dateLabel": "2014/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-02-01",
+                    "date": "2014-02",
+                    "dateLabel": "2014/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-03-01",
+                    "date": "2014-03",
+                    "dateLabel": "2014/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-04-01",
+                    "date": "2014-04",
+                    "dateLabel": "2014/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-05-01",
+                    "date": "2014-05",
+                    "dateLabel": "2014/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-06-01",
+                    "date": "2014-06",
+                    "dateLabel": "2014/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-07-01",
+                    "date": "2014-07",
+                    "dateLabel": "2014/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-08-01",
+                    "date": "2014-08",
+                    "dateLabel": "2014/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-09-01",
+                    "date": "2014-09",
+                    "dateLabel": "2014/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-10-01",
+                    "date": "2014-10",
+                    "dateLabel": "2014/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-11-01",
+                    "date": "2014-11",
+                    "dateLabel": "2014/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2014-12-01",
+                    "date": "2014-12",
+                    "dateLabel": "2014/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-01-01",
+                    "date": "2015-01",
+                    "dateLabel": "2015/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-02-01",
+                    "date": "2015-02",
+                    "dateLabel": "2015/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-03-01",
+                    "date": "2015-03",
+                    "dateLabel": "2015/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-04-01",
+                    "date": "2015-04",
+                    "dateLabel": "2015/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-05-01",
+                    "date": "2015-05",
+                    "dateLabel": "2015/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-06-01",
+                    "date": "2015-06",
+                    "dateLabel": "2015/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-07-01",
+                    "date": "2015-07",
+                    "dateLabel": "2015/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-08-01",
+                    "date": "2015-08",
+                    "dateLabel": "2015/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-09-01",
+                    "date": "2015-09",
+                    "dateLabel": "2015/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-10-01",
+                    "date": "2015-10",
+                    "dateLabel": "2015/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-11-01",
+                    "date": "2015-11",
+                    "dateLabel": "2015/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2015-12-01",
+                    "date": "2015-12",
+                    "dateLabel": "2015/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-01-01",
+                    "date": "2016-01",
+                    "dateLabel": "2016/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-02-01",
+                    "date": "2016-02",
+                    "dateLabel": "2016/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-03-01",
+                    "date": "2016-03",
+                    "dateLabel": "2016/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-04-01",
+                    "date": "2016-04",
+                    "dateLabel": "2016/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-05-01",
+                    "date": "2016-05",
+                    "dateLabel": "2016/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-06-01",
+                    "date": "2016-06",
+                    "dateLabel": "2016/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-07-01",
+                    "date": "2016-07",
+                    "dateLabel": "2016/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-08-01",
+                    "date": "2016-08",
+                    "dateLabel": "2016/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-09-01",
+                    "date": "2016-09",
+                    "dateLabel": "2016/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-10-01",
+                    "date": "2016-10",
+                    "dateLabel": "2016/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-11-01",
+                    "date": "2016-11",
+                    "dateLabel": "2016/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2016-12-01",
+                    "date": "2016-12",
+                    "dateLabel": "2016/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-01-01",
+                    "date": "2017-01",
+                    "dateLabel": "2017/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-02-01",
+                    "date": "2017-02",
+                    "dateLabel": "2017/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-03-01",
+                    "date": "2017-03",
+                    "dateLabel": "2017/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-04-01",
+                    "date": "2017-04",
+                    "dateLabel": "2017/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-05-01",
+                    "date": "2017-05",
+                    "dateLabel": "2017/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-06-01",
+                    "date": "2017-06",
+                    "dateLabel": "2017/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-07-01",
+                    "date": "2017-07",
+                    "dateLabel": "2017/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-08-01",
+                    "date": "2017-08",
+                    "dateLabel": "2017/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-09-01",
+                    "date": "2017-09",
+                    "dateLabel": "2017/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-10-01",
+                    "date": "2017-10",
+                    "dateLabel": "2017/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-11-01",
+                    "date": "2017-11",
+                    "dateLabel": "2017/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2017-12-01",
+                    "date": "2017-12",
+                    "dateLabel": "2017/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-01-01",
+                    "date": "2018-01",
+                    "dateLabel": "2018/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-02-01",
+                    "date": "2018-02",
+                    "dateLabel": "2018/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-03-01",
+                    "date": "2018-03",
+                    "dateLabel": "2018/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-04-01",
+                    "date": "2018-04",
+                    "dateLabel": "2018/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-05-01",
+                    "date": "2018-05",
+                    "dateLabel": "2018/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-06-01",
+                    "date": "2018-06",
+                    "dateLabel": "2018/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-07-01",
+                    "date": "2018-07",
+                    "dateLabel": "2018/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-08-01",
+                    "date": "2018-08",
+                    "dateLabel": "2018/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-09-01",
+                    "date": "2018-09",
+                    "dateLabel": "2018/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-10-01",
+                    "date": "2018-10",
+                    "dateLabel": "2018/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-11-01",
+                    "date": "2018-11",
+                    "dateLabel": "2018/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2018-12-01",
+                    "date": "2018-12",
+                    "dateLabel": "2018/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-01-01",
+                    "date": "2019-01",
+                    "dateLabel": "2019/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-02-01",
+                    "date": "2019-02",
+                    "dateLabel": "2019/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-03-01",
+                    "date": "2019-03",
+                    "dateLabel": "2019/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-04-01",
+                    "date": "2019-04",
+                    "dateLabel": "2019/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-05-01",
+                    "date": "2019-05",
+                    "dateLabel": "2019/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-06-01",
+                    "date": "2019-06",
+                    "dateLabel": "2019/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-07-01",
+                    "date": "2019-07",
+                    "dateLabel": "2019/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-08-01",
+                    "date": "2019-08",
+                    "dateLabel": "2019/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-09-01",
+                    "date": "2019-09",
+                    "dateLabel": "2019/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-10-01",
+                    "date": "2019-10",
+                    "dateLabel": "2019/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-11-01",
+                    "date": "2019-11",
+                    "dateLabel": "2019/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2019-12-01",
+                    "date": "2019-12",
+                    "dateLabel": "2019/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-01-01",
+                    "date": "2020-01",
+                    "dateLabel": "2020/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-02-01",
+                    "date": "2020-02",
+                    "dateLabel": "2020/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-03-01",
+                    "date": "2020-03",
+                    "dateLabel": "2020/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-04-01",
+                    "date": "2020-04",
+                    "dateLabel": "2020/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-05-01",
+                    "date": "2020-05",
+                    "dateLabel": "2020/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-06-01",
+                    "date": "2020-06",
+                    "dateLabel": "2020/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-07-01",
+                    "date": "2020-07",
+                    "dateLabel": "2020/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-08-01",
+                    "date": "2020-08",
+                    "dateLabel": "2020/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-09-01",
+                    "date": "2020-09",
+                    "dateLabel": "2020/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-10-01",
+                    "date": "2020-10",
+                    "dateLabel": "2020/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-11-01",
+                    "date": "2020-11",
+                    "dateLabel": "2020/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2020-12-01",
+                    "date": "2020-12",
+                    "dateLabel": "2020/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-01-01",
+                    "date": "2021-01",
+                    "dateLabel": "2021/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-02-01",
+                    "date": "2021-02",
+                    "dateLabel": "2021/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-03-01",
+                    "date": "2021-03",
+                    "dateLabel": "2021/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-04-01",
+                    "date": "2021-04",
+                    "dateLabel": "2021/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-05-01",
+                    "date": "2021-05",
+                    "dateLabel": "2021/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-06-01",
+                    "date": "2021-06",
+                    "dateLabel": "2021/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-07-01",
+                    "date": "2021-07",
+                    "dateLabel": "2021/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-08-01",
+                    "date": "2021-08",
+                    "dateLabel": "2021/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-09-01",
+                    "date": "2021-09",
+                    "dateLabel": "2021/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-10-01",
+                    "date": "2021-10",
+                    "dateLabel": "2021/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-11-01",
+                    "date": "2021-11",
+                    "dateLabel": "2021/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2021-12-01",
+                    "date": "2021-12",
+                    "dateLabel": "2021/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-01-01",
+                    "date": "2022-01",
+                    "dateLabel": "2022/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-02-01",
+                    "date": "2022-02",
+                    "dateLabel": "2022/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-03-01",
+                    "date": "2022-03",
+                    "dateLabel": "2022/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-04-01",
+                    "date": "2022-04",
+                    "dateLabel": "2022/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-05-01",
+                    "date": "2022-05",
+                    "dateLabel": "2022/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-06-01",
+                    "date": "2022-06",
+                    "dateLabel": "2022/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-07-01",
+                    "date": "2022-07",
+                    "dateLabel": "2022/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-08-01",
+                    "date": "2022-08",
+                    "dateLabel": "2022/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-09-01",
+                    "date": "2022-09",
+                    "dateLabel": "2022/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-10-01",
+                    "date": "2022-10",
+                    "dateLabel": "2022/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-11-01",
+                    "date": "2022-11",
+                    "dateLabel": "2022/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2022-12-01",
+                    "date": "2022-12",
+                    "dateLabel": "2022/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-01-01",
+                    "date": "2023-01",
+                    "dateLabel": "2023/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-02-01",
+                    "date": "2023-02",
+                    "dateLabel": "2023/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-03-01",
+                    "date": "2023-03",
+                    "dateLabel": "2023/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-04-01",
+                    "date": "2023-04",
+                    "dateLabel": "2023/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-05-01",
+                    "date": "2023-05",
+                    "dateLabel": "2023/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-06-01",
+                    "date": "2023-06",
+                    "dateLabel": "2023/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-07-01",
+                    "date": "2023-07",
+                    "dateLabel": "2023/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-08-01",
+                    "date": "2023-08",
+                    "dateLabel": "2023/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-09-01",
+                    "date": "2023-09",
+                    "dateLabel": "2023/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-10-01",
+                    "date": "2023-10",
+                    "dateLabel": "2023/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-11-01",
+                    "date": "2023-11",
+                    "dateLabel": "2023/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2023-12-01",
+                    "date": "2023-12",
+                    "dateLabel": "2023/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-01-01",
+                    "date": "2024-01",
+                    "dateLabel": "2024/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-02-01",
+                    "date": "2024-02",
+                    "dateLabel": "2024/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-03-01",
+                    "date": "2024-03",
+                    "dateLabel": "2024/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-04-01",
+                    "date": "2024-04",
+                    "dateLabel": "2024/Apr",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-05-01",
+                    "date": "2024-05",
+                    "dateLabel": "2024/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-06-01",
+                    "date": "2024-06",
+                    "dateLabel": "2024/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-07-01",
+                    "date": "2024-07",
+                    "dateLabel": "2024/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-08-01",
+                    "date": "2024-08",
+                    "dateLabel": "2024/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-09-01",
+                    "date": "2024-09",
+                    "dateLabel": "2024/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-10-01",
+                    "date": "2024-10",
+                    "dateLabel": "2024/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-11-01",
+                    "date": "2024-11",
+                    "dateLabel": "2024/Nov",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2024-12-01",
+                    "date": "2024-12",
+                    "dateLabel": "2024/Dec",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-01-01",
+                    "date": "2025-01",
+                    "dateLabel": "2025/Jan",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-02-01",
+                    "date": "2025-02",
+                    "dateLabel": "2025/Feb",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-03-01",
+                    "date": "2025-03",
+                    "dateLabel": "2025/Mar",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-04-01",
+                    "date": "2025-04",
+                    "dateLabel": "2025/Apr",
+                    "label": "total",
+                    "total": 1,
+                    "metric": 1
+                },
+                {
+                    "startDate": "2025-05-01",
+                    "date": "2025-05",
+                    "dateLabel": "2025/May",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-06-01",
+                    "date": "2025-06",
+                    "dateLabel": "2025/Jun",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-07-01",
+                    "date": "2025-07",
+                    "dateLabel": "2025/Jul",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-08-01",
+                    "date": "2025-08",
+                    "dateLabel": "2025/Aug",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-09-01",
+                    "date": "2025-09",
+                    "dateLabel": "2025/Sep",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                },
+                {
+                    "startDate": "2025-10-01",
+                    "date": "2025-10",
+                    "dateLabel": "2025/Oct",
+                    "label": null,
+                    "total": 0,
+                    "metric": 0
+                }
+            ]
+        },
+        "expiry": 1761021025.4690623
     },
     "https://api.sandbox.syntage.com/insights/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/sales-revenue": {
         "value": {
@@ -7132,1364 +6801,32 @@
                 }
             ]
         },
-        "expiry": 1761020300.459312
+        "expiry": 1761021025.5022535
     },
-    "https://api.sandbox.syntage.com/insights/SSD1912102V8/financial-ratios": {
-        "value": {
-            "data": {
-                "liquidity": {
-                    "current_ratio": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "quick_ratio": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "cash_ratio": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "acid_test": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "working_capital": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "cash_to_assets": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "net_working_capital_to_sales": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    }
-                },
-                "activity": {
-                    "days_inventory_outstanding": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "days_sales_outstanding": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "days_payable_outstanding": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "cash_conversion_cycle": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "total_asset_turnover": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "inventory_turnover": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "fixed_asset_turnover_ratio": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "sales_to_capital_employed": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "accounts_payable_payment_period": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "accounts_receivable_collection_period": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    }
-                },
-                "profitability": {
-                    "return_on_assets": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "return_on_equity": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "return_on_sales": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "gross_profit_margin": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "return_on_investment": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    }
-                },
-                "leverage": {
-                    "total_debt_ratio": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "debt_equity_ratio": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "coverage": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "degree_of_financial_leverage": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "capital_intensity_ratio": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "solvency": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    },
-                    "interest_expense_to_sales": {
-                        "2024": null,
-                        "2023": null,
-                        "2022": null
-                    }
-                }
+    "https://api.sandbox.syntage.com/insights/SSD1912102V8/cash-flow": {
+        "value": [
+            {
+                "type": "inflow",
+                "date": "2025/Apr",
+                "startDate": "2025-04-01",
+                "currency": "MXN",
+                "transactions": "1",
+                "amount": 1128.72,
+                "mxnAmount": 1128.72,
+                "groupName": "total"
+            },
+            {
+                "type": "outflow",
+                "date": "2025/Apr",
+                "startDate": "2025-04-01",
+                "currency": "MXN",
+                "transactions": "3",
+                "amount": 10616.6,
+                "mxnAmount": 10616.6,
+                "groupName": "total"
             }
-        },
-        "expiry": 1761020300.476688
-    },
-    "https://api.sandbox.syntage.com/insights/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/risks": {
-        "value": {
-            "data": {
-                "taxCompliance": {
-                    "value": "negative",
-                    "risky": true
-                },
-                "blacklistStatus": {
-                    "value": null,
-                    "risky": false
-                },
-                "blacklistedCounterparties": {
-                    "value": 0,
-                    "risky": false
-                },
-                "intercompanyTransactions": null,
-                "customerConcentration": {
-                    "value": 4914,
-                    "risky": true
-                },
-                "supplierConcentration": {
-                    "value": 4317,
-                    "risky": true
-                },
-                "foreignExchangeRisk": {
-                    "value": 0,
-                    "risky": false
-                },
-                "cashTransactionRisk": {
-                    "value": 0,
-                    "risky": false
-                },
-                "accountingInsolvency": null,
-                "canceledIssuedInvoices": {
-                    "value": 0,
-                    "risky": false
-                },
-                "canceledReceivedInvoices": {
-                    "value": 0,
-                    "risky": false
-                }
-            }
-        },
-        "expiry": 1761020300.5270894
-    },
-    "https://api.sandbox.syntage.com/insights/SSD1912102V8/employees": {
-        "value": {
-            "data": [
-                {
-                    "startDate": "2014-01-01",
-                    "date": "2014-01",
-                    "dateLabel": "2014/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-02-01",
-                    "date": "2014-02",
-                    "dateLabel": "2014/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-03-01",
-                    "date": "2014-03",
-                    "dateLabel": "2014/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-04-01",
-                    "date": "2014-04",
-                    "dateLabel": "2014/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-05-01",
-                    "date": "2014-05",
-                    "dateLabel": "2014/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-06-01",
-                    "date": "2014-06",
-                    "dateLabel": "2014/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-07-01",
-                    "date": "2014-07",
-                    "dateLabel": "2014/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-08-01",
-                    "date": "2014-08",
-                    "dateLabel": "2014/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-09-01",
-                    "date": "2014-09",
-                    "dateLabel": "2014/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-10-01",
-                    "date": "2014-10",
-                    "dateLabel": "2014/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-11-01",
-                    "date": "2014-11",
-                    "dateLabel": "2014/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2014-12-01",
-                    "date": "2014-12",
-                    "dateLabel": "2014/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-01-01",
-                    "date": "2015-01",
-                    "dateLabel": "2015/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-02-01",
-                    "date": "2015-02",
-                    "dateLabel": "2015/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-03-01",
-                    "date": "2015-03",
-                    "dateLabel": "2015/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-04-01",
-                    "date": "2015-04",
-                    "dateLabel": "2015/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-05-01",
-                    "date": "2015-05",
-                    "dateLabel": "2015/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-06-01",
-                    "date": "2015-06",
-                    "dateLabel": "2015/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-07-01",
-                    "date": "2015-07",
-                    "dateLabel": "2015/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-08-01",
-                    "date": "2015-08",
-                    "dateLabel": "2015/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-09-01",
-                    "date": "2015-09",
-                    "dateLabel": "2015/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-10-01",
-                    "date": "2015-10",
-                    "dateLabel": "2015/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-11-01",
-                    "date": "2015-11",
-                    "dateLabel": "2015/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2015-12-01",
-                    "date": "2015-12",
-                    "dateLabel": "2015/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-01-01",
-                    "date": "2016-01",
-                    "dateLabel": "2016/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-02-01",
-                    "date": "2016-02",
-                    "dateLabel": "2016/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-03-01",
-                    "date": "2016-03",
-                    "dateLabel": "2016/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-04-01",
-                    "date": "2016-04",
-                    "dateLabel": "2016/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-05-01",
-                    "date": "2016-05",
-                    "dateLabel": "2016/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-06-01",
-                    "date": "2016-06",
-                    "dateLabel": "2016/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-07-01",
-                    "date": "2016-07",
-                    "dateLabel": "2016/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-08-01",
-                    "date": "2016-08",
-                    "dateLabel": "2016/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-09-01",
-                    "date": "2016-09",
-                    "dateLabel": "2016/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-10-01",
-                    "date": "2016-10",
-                    "dateLabel": "2016/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-11-01",
-                    "date": "2016-11",
-                    "dateLabel": "2016/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2016-12-01",
-                    "date": "2016-12",
-                    "dateLabel": "2016/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-01-01",
-                    "date": "2017-01",
-                    "dateLabel": "2017/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-02-01",
-                    "date": "2017-02",
-                    "dateLabel": "2017/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-03-01",
-                    "date": "2017-03",
-                    "dateLabel": "2017/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-04-01",
-                    "date": "2017-04",
-                    "dateLabel": "2017/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-05-01",
-                    "date": "2017-05",
-                    "dateLabel": "2017/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-06-01",
-                    "date": "2017-06",
-                    "dateLabel": "2017/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-07-01",
-                    "date": "2017-07",
-                    "dateLabel": "2017/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-08-01",
-                    "date": "2017-08",
-                    "dateLabel": "2017/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-09-01",
-                    "date": "2017-09",
-                    "dateLabel": "2017/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-10-01",
-                    "date": "2017-10",
-                    "dateLabel": "2017/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-11-01",
-                    "date": "2017-11",
-                    "dateLabel": "2017/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2017-12-01",
-                    "date": "2017-12",
-                    "dateLabel": "2017/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-01-01",
-                    "date": "2018-01",
-                    "dateLabel": "2018/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-02-01",
-                    "date": "2018-02",
-                    "dateLabel": "2018/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-03-01",
-                    "date": "2018-03",
-                    "dateLabel": "2018/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-04-01",
-                    "date": "2018-04",
-                    "dateLabel": "2018/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-05-01",
-                    "date": "2018-05",
-                    "dateLabel": "2018/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-06-01",
-                    "date": "2018-06",
-                    "dateLabel": "2018/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-07-01",
-                    "date": "2018-07",
-                    "dateLabel": "2018/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-08-01",
-                    "date": "2018-08",
-                    "dateLabel": "2018/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-09-01",
-                    "date": "2018-09",
-                    "dateLabel": "2018/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-10-01",
-                    "date": "2018-10",
-                    "dateLabel": "2018/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-11-01",
-                    "date": "2018-11",
-                    "dateLabel": "2018/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2018-12-01",
-                    "date": "2018-12",
-                    "dateLabel": "2018/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-01-01",
-                    "date": "2019-01",
-                    "dateLabel": "2019/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-02-01",
-                    "date": "2019-02",
-                    "dateLabel": "2019/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-03-01",
-                    "date": "2019-03",
-                    "dateLabel": "2019/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-04-01",
-                    "date": "2019-04",
-                    "dateLabel": "2019/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-05-01",
-                    "date": "2019-05",
-                    "dateLabel": "2019/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-06-01",
-                    "date": "2019-06",
-                    "dateLabel": "2019/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-07-01",
-                    "date": "2019-07",
-                    "dateLabel": "2019/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-08-01",
-                    "date": "2019-08",
-                    "dateLabel": "2019/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-09-01",
-                    "date": "2019-09",
-                    "dateLabel": "2019/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-10-01",
-                    "date": "2019-10",
-                    "dateLabel": "2019/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-11-01",
-                    "date": "2019-11",
-                    "dateLabel": "2019/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2019-12-01",
-                    "date": "2019-12",
-                    "dateLabel": "2019/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-01-01",
-                    "date": "2020-01",
-                    "dateLabel": "2020/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-02-01",
-                    "date": "2020-02",
-                    "dateLabel": "2020/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-03-01",
-                    "date": "2020-03",
-                    "dateLabel": "2020/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-04-01",
-                    "date": "2020-04",
-                    "dateLabel": "2020/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-05-01",
-                    "date": "2020-05",
-                    "dateLabel": "2020/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-06-01",
-                    "date": "2020-06",
-                    "dateLabel": "2020/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-07-01",
-                    "date": "2020-07",
-                    "dateLabel": "2020/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-08-01",
-                    "date": "2020-08",
-                    "dateLabel": "2020/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-09-01",
-                    "date": "2020-09",
-                    "dateLabel": "2020/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-10-01",
-                    "date": "2020-10",
-                    "dateLabel": "2020/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-11-01",
-                    "date": "2020-11",
-                    "dateLabel": "2020/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2020-12-01",
-                    "date": "2020-12",
-                    "dateLabel": "2020/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-01-01",
-                    "date": "2021-01",
-                    "dateLabel": "2021/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-02-01",
-                    "date": "2021-02",
-                    "dateLabel": "2021/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-03-01",
-                    "date": "2021-03",
-                    "dateLabel": "2021/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-04-01",
-                    "date": "2021-04",
-                    "dateLabel": "2021/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-05-01",
-                    "date": "2021-05",
-                    "dateLabel": "2021/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-06-01",
-                    "date": "2021-06",
-                    "dateLabel": "2021/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-07-01",
-                    "date": "2021-07",
-                    "dateLabel": "2021/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-08-01",
-                    "date": "2021-08",
-                    "dateLabel": "2021/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-09-01",
-                    "date": "2021-09",
-                    "dateLabel": "2021/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-10-01",
-                    "date": "2021-10",
-                    "dateLabel": "2021/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-11-01",
-                    "date": "2021-11",
-                    "dateLabel": "2021/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2021-12-01",
-                    "date": "2021-12",
-                    "dateLabel": "2021/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-01-01",
-                    "date": "2022-01",
-                    "dateLabel": "2022/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-02-01",
-                    "date": "2022-02",
-                    "dateLabel": "2022/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-03-01",
-                    "date": "2022-03",
-                    "dateLabel": "2022/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-04-01",
-                    "date": "2022-04",
-                    "dateLabel": "2022/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-05-01",
-                    "date": "2022-05",
-                    "dateLabel": "2022/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-06-01",
-                    "date": "2022-06",
-                    "dateLabel": "2022/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-07-01",
-                    "date": "2022-07",
-                    "dateLabel": "2022/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-08-01",
-                    "date": "2022-08",
-                    "dateLabel": "2022/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-09-01",
-                    "date": "2022-09",
-                    "dateLabel": "2022/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-10-01",
-                    "date": "2022-10",
-                    "dateLabel": "2022/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-11-01",
-                    "date": "2022-11",
-                    "dateLabel": "2022/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2022-12-01",
-                    "date": "2022-12",
-                    "dateLabel": "2022/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-01-01",
-                    "date": "2023-01",
-                    "dateLabel": "2023/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-02-01",
-                    "date": "2023-02",
-                    "dateLabel": "2023/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-03-01",
-                    "date": "2023-03",
-                    "dateLabel": "2023/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-04-01",
-                    "date": "2023-04",
-                    "dateLabel": "2023/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-05-01",
-                    "date": "2023-05",
-                    "dateLabel": "2023/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-06-01",
-                    "date": "2023-06",
-                    "dateLabel": "2023/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-07-01",
-                    "date": "2023-07",
-                    "dateLabel": "2023/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-08-01",
-                    "date": "2023-08",
-                    "dateLabel": "2023/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-09-01",
-                    "date": "2023-09",
-                    "dateLabel": "2023/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-10-01",
-                    "date": "2023-10",
-                    "dateLabel": "2023/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-11-01",
-                    "date": "2023-11",
-                    "dateLabel": "2023/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2023-12-01",
-                    "date": "2023-12",
-                    "dateLabel": "2023/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-01-01",
-                    "date": "2024-01",
-                    "dateLabel": "2024/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-02-01",
-                    "date": "2024-02",
-                    "dateLabel": "2024/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-03-01",
-                    "date": "2024-03",
-                    "dateLabel": "2024/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-04-01",
-                    "date": "2024-04",
-                    "dateLabel": "2024/Apr",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-05-01",
-                    "date": "2024-05",
-                    "dateLabel": "2024/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-06-01",
-                    "date": "2024-06",
-                    "dateLabel": "2024/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-07-01",
-                    "date": "2024-07",
-                    "dateLabel": "2024/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-08-01",
-                    "date": "2024-08",
-                    "dateLabel": "2024/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-09-01",
-                    "date": "2024-09",
-                    "dateLabel": "2024/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-10-01",
-                    "date": "2024-10",
-                    "dateLabel": "2024/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-11-01",
-                    "date": "2024-11",
-                    "dateLabel": "2024/Nov",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2024-12-01",
-                    "date": "2024-12",
-                    "dateLabel": "2024/Dec",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-01-01",
-                    "date": "2025-01",
-                    "dateLabel": "2025/Jan",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-02-01",
-                    "date": "2025-02",
-                    "dateLabel": "2025/Feb",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-03-01",
-                    "date": "2025-03",
-                    "dateLabel": "2025/Mar",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-04-01",
-                    "date": "2025-04",
-                    "dateLabel": "2025/Apr",
-                    "label": "total",
-                    "total": 1,
-                    "metric": 1
-                },
-                {
-                    "startDate": "2025-05-01",
-                    "date": "2025-05",
-                    "dateLabel": "2025/May",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-06-01",
-                    "date": "2025-06",
-                    "dateLabel": "2025/Jun",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-07-01",
-                    "date": "2025-07",
-                    "dateLabel": "2025/Jul",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-08-01",
-                    "date": "2025-08",
-                    "dateLabel": "2025/Aug",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-09-01",
-                    "date": "2025-09",
-                    "dateLabel": "2025/Sep",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                },
-                {
-                    "startDate": "2025-10-01",
-                    "date": "2025-10",
-                    "dateLabel": "2025/Oct",
-                    "label": null,
-                    "total": 0,
-                    "metric": 0
-                }
-            ]
-        },
-        "expiry": 1761020301.02311
-    },
-    "https://api.sandbox.syntage.com/insights/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/trial-balance": {
-        "value": {
-            "data": {
-                "periods": [],
-                "accounts": []
-            }
-        },
-        "expiry": 1761020301.0446284
+        ],
+        "expiry": 1761021025.554024
     },
     "https://api.sandbox.syntage.com/insights/SSD1912102V8/customer-concentration": {
         "value": {
@@ -10224,78 +8561,16 @@
                 }
             ]
         },
-        "expiry": 1761020301.1716585
+        "expiry": 1761021025.5939398
     },
-    "https://api.sandbox.syntage.com/insights/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/government-customers": {
+    "https://api.sandbox.syntage.com/insights/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/trial-balance": {
         "value": {
-            "data": []
-        },
-        "expiry": 1761020301.371854
-    },
-    "https://api.sandbox.syntage.com/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/vendor-network": {
-        "value": {
-            "@context": "/contexts/GetVendorNetwork",
-            "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/vendor-network",
-            "@type": "hydra:Collection",
-            "hydra:totalItems": 3,
-            "hydra:member": [
-                {
-                    "vendor": "Operadora Zavala de Valencia S.A.P.I. DE C.V.",
-                    "totalReceived": "3118.66",
-                    "totalCancelledReceived": "0.00",
-                    "percentageCancelled": "0.0000",
-                    "receivedDiscounts": "93.28",
-                    "receivedCreditNotes": "0.00",
-                    "receivedPaymentPending": "0.00",
-                    "netReceived": "3025.38",
-                    "pueReceived": "3118.66",
-                    "ppdReceived": "0.00",
-                    "ppdCount": 0,
-                    "paymentAmount": "0.00",
-                    "paidInInstallments": "0.0000",
-                    "daysPayableOutstanding": "0.00"
-                },
-                {
-                    "vendor": "Consultor\u00eda Cisneros de Francisco S.A. de C.V.",
-                    "totalReceived": "1582.57",
-                    "totalCancelledReceived": "0.00",
-                    "percentageCancelled": "0.0000",
-                    "receivedDiscounts": "0.00",
-                    "receivedCreditNotes": "0.00",
-                    "receivedPaymentPending": "1582.57",
-                    "netReceived": "0.00",
-                    "pueReceived": "0.00",
-                    "ppdReceived": "1582.57",
-                    "ppdCount": 1,
-                    "paymentAmount": "0.00",
-                    "paidInInstallments": "0.0000",
-                    "daysPayableOutstanding": "0.00"
-                },
-                {
-                    "vendor": "Gestora Medrano de Reyna S.A.B.",
-                    "totalReceived": "694.88",
-                    "totalCancelledReceived": "0.00",
-                    "percentageCancelled": "0.0000",
-                    "receivedDiscounts": "0.00",
-                    "receivedCreditNotes": "0.00",
-                    "receivedPaymentPending": "694.88",
-                    "netReceived": "0.00",
-                    "pueReceived": "0.00",
-                    "ppdReceived": "694.88",
-                    "ppdCount": 1,
-                    "paymentAmount": "0.00",
-                    "paidInInstallments": "0.0000",
-                    "daysPayableOutstanding": "0.00"
-                }
-            ],
-            "hydra:search": {
-                "@type": "hydra:IriTemplate",
-                "hydra:template": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/vendor-network{?}",
-                "hydra:variableRepresentation": "BasicRepresentation",
-                "hydra:mapping": []
+            "data": {
+                "periods": [],
+                "accounts": []
             }
         },
-        "expiry": 1761020301.408389
+        "expiry": 1761021025.6643682
     },
     "https://api.sandbox.syntage.com/insights/SSD1912102V8/supplier-concentration": {
         "value": {
@@ -12030,7 +10305,13 @@
                 }
             ]
         },
-        "expiry": 1761020301.6020436
+        "expiry": 1761021025.7631729
+    },
+    "https://api.sandbox.syntage.com/insights/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/government-customers": {
+        "value": {
+            "data": []
+        },
+        "expiry": 1761021025.8737414
     },
     "https://api.sandbox.syntage.com/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/customer-network": {
         "value": {
@@ -12095,6 +10376,268 @@
                 "hydra:mapping": []
             }
         },
-        "expiry": 1761020301.7844257
+        "expiry": 1761021025.9649365
+    },
+    "https://api.sandbox.syntage.com/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/invoicing-annual-comparison": {
+        "value": {
+            "@context": "/contexts/GetInvoicingAnnualComparison",
+            "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/invoicing-annual-comparison",
+            "@type": "hydra:Collection",
+            "hydra:totalItems": 5,
+            "hydra:member": [
+                {
+                    "period": "2022",
+                    "totalIncome": null,
+                    "incomePaymentPending": null,
+                    "totalIncomeCancelled": null,
+                    "incomeDiscounts": null,
+                    "incomeCreditNotes": null,
+                    "netIncome": null,
+                    "incomeDueUponReceipt": null,
+                    "incomeDueOverTime": null,
+                    "collectedIncomeDueOverTime": null,
+                    "totalExpenses": null,
+                    "receivedPaymentPending": null,
+                    "totalExpensesCancelled": null,
+                    "expensesDiscounts": null,
+                    "expensesCreditNotes": null,
+                    "payroll": null,
+                    "netExpensesPlusPayroll": null,
+                    "margin": "0",
+                    "expensesDueUponReceipt": null,
+                    "expensesDueOverTime": null,
+                    "paidExpensesDueOverTime": null,
+                    "daysPayableOutstanding": null,
+                    "daysSalesOutstanding": null,
+                    "netExpenses": null,
+                    "profitOrLoss": null
+                },
+                {
+                    "period": "2023",
+                    "totalIncome": null,
+                    "incomePaymentPending": null,
+                    "totalIncomeCancelled": null,
+                    "incomeDiscounts": null,
+                    "incomeCreditNotes": null,
+                    "netIncome": null,
+                    "incomeDueUponReceipt": null,
+                    "incomeDueOverTime": null,
+                    "collectedIncomeDueOverTime": null,
+                    "totalExpenses": null,
+                    "receivedPaymentPending": null,
+                    "totalExpensesCancelled": null,
+                    "expensesDiscounts": null,
+                    "expensesCreditNotes": null,
+                    "payroll": null,
+                    "netExpensesPlusPayroll": null,
+                    "margin": "0",
+                    "expensesDueUponReceipt": null,
+                    "expensesDueOverTime": null,
+                    "paidExpensesDueOverTime": null,
+                    "daysPayableOutstanding": null,
+                    "daysSalesOutstanding": null,
+                    "netExpenses": null,
+                    "profitOrLoss": null
+                },
+                {
+                    "period": "2024",
+                    "totalIncome": null,
+                    "incomePaymentPending": null,
+                    "totalIncomeCancelled": null,
+                    "incomeDiscounts": null,
+                    "incomeCreditNotes": null,
+                    "netIncome": null,
+                    "incomeDueUponReceipt": null,
+                    "incomeDueOverTime": null,
+                    "collectedIncomeDueOverTime": null,
+                    "totalExpenses": null,
+                    "receivedPaymentPending": null,
+                    "totalExpensesCancelled": null,
+                    "expensesDiscounts": null,
+                    "expensesCreditNotes": null,
+                    "payroll": null,
+                    "netExpensesPlusPayroll": null,
+                    "margin": "0",
+                    "expensesDueUponReceipt": null,
+                    "expensesDueOverTime": null,
+                    "paidExpensesDueOverTime": null,
+                    "daysPayableOutstanding": null,
+                    "daysSalesOutstanding": null,
+                    "netExpenses": null,
+                    "profitOrLoss": null
+                },
+                {
+                    "period": "2025",
+                    "totalIncome": "1560.19",
+                    "incomePaymentPending": "445.44",
+                    "totalIncomeCancelled": "0.00",
+                    "incomeDiscounts": "24.52",
+                    "incomeCreditNotes": "0.00",
+                    "netIncome": "1090.23",
+                    "incomeDueUponReceipt": "0.6237",
+                    "incomeDueOverTime": "0.3763",
+                    "collectedIncomeDueOverTime": "0.2083",
+                    "totalExpenses": "5396.11",
+                    "receivedPaymentPending": "2641.83",
+                    "totalExpensesCancelled": "0.00",
+                    "expensesDiscounts": "93.28",
+                    "expensesCreditNotes": "0.00",
+                    "payroll": "6249.91",
+                    "netExpensesPlusPayroll": "8910.91",
+                    "margin": "-7.1734",
+                    "expensesDueUponReceipt": "0.5779",
+                    "expensesDueOverTime": "0.4221",
+                    "paidExpensesDueOverTime": "0.0000",
+                    "daysPayableOutstanding": null,
+                    "daysSalesOutstanding": "-1.00",
+                    "netExpenses": "2661.00",
+                    "profitOrLoss": "-7820.68"
+                },
+                {
+                    "period": "Acumulado",
+                    "totalIncome": "1560.19",
+                    "incomePaymentPending": "445.44",
+                    "totalIncomeCancelled": "0.00",
+                    "incomeDiscounts": "24.52",
+                    "incomeCreditNotes": "0.00",
+                    "netIncome": "1090.23",
+                    "incomeDueUponReceipt": "0.6237",
+                    "incomeDueOverTime": "0.3763",
+                    "collectedIncomeDueOverTime": "0.2083",
+                    "totalExpenses": "5396.11",
+                    "receivedPaymentPending": "2641.83",
+                    "totalExpensesCancelled": "0.00",
+                    "expensesDiscounts": "93.28",
+                    "expensesCreditNotes": "0.00",
+                    "payroll": "6249.91",
+                    "netExpensesPlusPayroll": "8910.91",
+                    "margin": "-1.7934",
+                    "expensesDueUponReceipt": "0.5779",
+                    "expensesDueOverTime": "0.4221",
+                    "paidExpensesDueOverTime": "0.0000",
+                    "daysPayableOutstanding": null,
+                    "daysSalesOutstanding": "-1.00",
+                    "netExpenses": "2661.00",
+                    "profitOrLoss": "-7820.68"
+                }
+            ],
+            "hydra:search": {
+                "@type": "hydra:IriTemplate",
+                "hydra:template": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/invoicing-annual-comparison{?}",
+                "hydra:variableRepresentation": "BasicRepresentation",
+                "hydra:mapping": []
+            }
+        },
+        "expiry": 1761021026.022672
+    },
+    "https://api.sandbox.syntage.com/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/vendor-network": {
+        "value": {
+            "@context": "/contexts/GetVendorNetwork",
+            "@id": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/vendor-network",
+            "@type": "hydra:Collection",
+            "hydra:totalItems": 3,
+            "hydra:member": [
+                {
+                    "vendor": "Operadora Zavala de Valencia S.A.P.I. DE C.V.",
+                    "totalReceived": "3118.66",
+                    "totalCancelledReceived": "0.00",
+                    "percentageCancelled": "0.0000",
+                    "receivedDiscounts": "93.28",
+                    "receivedCreditNotes": "0.00",
+                    "receivedPaymentPending": "0.00",
+                    "netReceived": "3025.38",
+                    "pueReceived": "3118.66",
+                    "ppdReceived": "0.00",
+                    "ppdCount": 0,
+                    "paymentAmount": "0.00",
+                    "paidInInstallments": "0.0000",
+                    "daysPayableOutstanding": "0.00"
+                },
+                {
+                    "vendor": "Consultor\u00eda Cisneros de Francisco S.A. de C.V.",
+                    "totalReceived": "1582.57",
+                    "totalCancelledReceived": "0.00",
+                    "percentageCancelled": "0.0000",
+                    "receivedDiscounts": "0.00",
+                    "receivedCreditNotes": "0.00",
+                    "receivedPaymentPending": "1582.57",
+                    "netReceived": "0.00",
+                    "pueReceived": "0.00",
+                    "ppdReceived": "1582.57",
+                    "ppdCount": 1,
+                    "paymentAmount": "0.00",
+                    "paidInInstallments": "0.0000",
+                    "daysPayableOutstanding": "0.00"
+                },
+                {
+                    "vendor": "Gestora Medrano de Reyna S.A.B.",
+                    "totalReceived": "694.88",
+                    "totalCancelledReceived": "0.00",
+                    "percentageCancelled": "0.0000",
+                    "receivedDiscounts": "0.00",
+                    "receivedCreditNotes": "0.00",
+                    "receivedPaymentPending": "694.88",
+                    "netReceived": "0.00",
+                    "pueReceived": "0.00",
+                    "ppdReceived": "694.88",
+                    "ppdCount": 1,
+                    "paymentAmount": "0.00",
+                    "paidInInstallments": "0.0000",
+                    "daysPayableOutstanding": "0.00"
+                }
+            ],
+            "hydra:search": {
+                "@type": "hydra:IriTemplate",
+                "hydra:template": "/entities/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/insights/metrics/vendor-network{?}",
+                "hydra:variableRepresentation": "BasicRepresentation",
+                "hydra:mapping": []
+            }
+        },
+        "expiry": 1761021026.0413945
+    },
+    "https://api.sandbox.syntage.com/insights/9ecb32ba-c10e-4d57-9e43-d42769d90cb1/risks": {
+        "value": {
+            "data": {
+                "taxCompliance": {
+                    "value": "negative",
+                    "risky": true
+                },
+                "blacklistStatus": {
+                    "value": null,
+                    "risky": false
+                },
+                "blacklistedCounterparties": {
+                    "value": 0,
+                    "risky": false
+                },
+                "intercompanyTransactions": null,
+                "customerConcentration": {
+                    "value": 4914,
+                    "risky": true
+                },
+                "supplierConcentration": {
+                    "value": 4317,
+                    "risky": true
+                },
+                "foreignExchangeRisk": {
+                    "value": 0,
+                    "risky": false
+                },
+                "cashTransactionRisk": {
+                    "value": 0,
+                    "risky": false
+                },
+                "accountingInsolvency": null,
+                "canceledIssuedInvoices": {
+                    "value": 0,
+                    "risky": false
+                },
+                "canceledReceivedInvoices": {
+                    "value": 0,
+                    "risky": false
+                }
+            }
+        },
+        "expiry": 1761021026.1757052
     }
 }

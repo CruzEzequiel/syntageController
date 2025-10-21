@@ -3,6 +3,10 @@ from fastapi import APIRouter, HTTPException, Body, Form
 import httpx
 from .cacheController import cache
 
+# Configurar base URL según variable de entorno
+develop = os.getenv("DEVELOP") == "true"
+base_url = "https://api.sandbox.syntage.com" if develop else "https://api.syntage.com"
+
 # Crear el enrutador para las rutas de la API
 router = APIRouter()
 
@@ -14,7 +18,7 @@ async def get_invoicing_annual_comparison(entity_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
         
-        url = f"https://api.sandbox.syntage.com/entities/{entity_id}/insights/metrics/invoicing-annual-comparison"
+        url = f"{base_url}/entities/{entity_id}/insights/metrics/invoicing-annual-comparison"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -42,7 +46,7 @@ async def get_financial_ratios(business_id: str):
         api_key = os.getenv("SYNTAGE_API_KEY")
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/financial-ratios"
+        url = f"{base_url}/insights/{business_id}/financial-ratios"
         headers = {"X-API-Key": api_key}
         # Verificar cache
         cached_data = cache.get(url)
@@ -68,7 +72,7 @@ async def get_vendor_network_insight(entity_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
         
-        url = f"https://api.sandbox.syntage.com/entities/{entity_id}/insights/metrics/vendor-network"
+        url = f"{base_url}/entities/{entity_id}/insights/metrics/vendor-network"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -96,7 +100,7 @@ async def get_customer_network_insight(entity_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
         
-        url = f"https://api.sandbox.syntage.com/entities/{entity_id}/insights/metrics/customer-network"
+        url = f"{base_url}/entities/{entity_id}/insights/metrics/customer-network"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -124,7 +128,7 @@ async def get_customer_invoice_concentration(entity_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
         
-        url = f"https://api.sandbox.syntage.com/insights/{entity_id}/customer-concentration"
+        url = f"{base_url}/insights/{entity_id}/customer-concentration"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -153,7 +157,7 @@ async def get_financial_institutions(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.syntage.com/insights/{business_id}/financial-institutions"
+        url = f"{base_url}/insights/{business_id}/financial-institutions"
         headers = {"X-API-Key": api_key}
 
         # Verificar cache
@@ -181,7 +185,7 @@ async def get_supplier_invoice_concentration(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/supplier-concentration"
+        url = f"{base_url}/insights/{business_id}/supplier-concentration"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -209,7 +213,7 @@ async def get_employees(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/employees"
+        url = f"{base_url}/insights/{business_id}/employees"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -237,7 +241,7 @@ async def get_expenditures(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
         
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/expenditures"
+        url = f"{base_url}/insights/{business_id}/expenditures"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -265,7 +269,7 @@ async def get_government_customers(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/government-customers"
+        url = f"{base_url}/insights/{business_id}/government-customers"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -292,7 +296,7 @@ async def get_invoicing_blacklist(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/invoicing-blacklist"
+        url = f"{base_url}/insights/{business_id}/invoicing-blacklist"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -319,7 +323,7 @@ async def get_risks(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/risks"
+        url = f"{base_url}/insights/{business_id}/risks"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -346,7 +350,7 @@ async def get_sales_revenue(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/sales-revenue"
+        url = f"{base_url}/insights/{business_id}/sales-revenue"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -373,7 +377,7 @@ async def get_trial_balance(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/trial-balance"
+        url = f"{base_url}/insights/{business_id}/trial-balance"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -400,7 +404,7 @@ async def get_scores(entity_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/entities/{entity_id}/insights/metrics/scores"
+        url = f"{base_url}/entities/{entity_id}/insights/metrics/scores"
         headers = {"X-API-Key": api_key,"accept-language": "es"}
         
         # Verificar cache
@@ -427,7 +431,7 @@ async def get_cash_flow(business_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{business_id}/cash-flow"
+        url = f"{base_url}/insights/{business_id}/cash-flow"
         headers = {"X-API-Key": api_key}
         
         # Verificar cache
@@ -454,7 +458,7 @@ async def get_summary(entity_id: str):
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/insights/{entity_id}/summary"
+        url = f"{base_url}/insights/{entity_id}/summary"
         headers = {"X-API-Key": api_key,"accept-language": "es"}
         
         # Verificar cache
@@ -482,7 +486,7 @@ async def get_extractions():
         if not api_key:
             raise HTTPException(status_code=500, detail="API key not configured")
 
-        url = f"https://api.sandbox.syntage.com/entities"
+        url = f"{base_url}/entities"
         headers = {"X-API-Key": api_key,"accept-language": "es"}
         
         # Verificar cache
