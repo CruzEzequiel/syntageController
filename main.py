@@ -2,7 +2,7 @@ import os
 from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from controllers import syntage_data_controller
+from controllers import syntage_data_controller, financial_mapping_controller
 from middlewares.authMiddleware import validate_access_token
 
 load_dotenv()
@@ -28,3 +28,4 @@ app.add_middleware(
 
 
 app.include_router(syntage_data_controller.router)
+app.include_router(financial_mapping_controller.router)
