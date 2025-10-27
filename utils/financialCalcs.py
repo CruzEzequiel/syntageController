@@ -158,36 +158,36 @@ def _map_credit_history_data(buro_report: Dict) -> Dict[str, Any]:
     return ch_data
 
 
-def _map_compliance_data(risks: Dict) -> Dict[str, Optional[bool]]:
+def _map_compliance_data(risks: Dict) -> Dict[str, bool]:
     """Mapea datos de cumplimiento (comp)"""
     
     # Legal OK (basado en taxCompliance)
     tax_compliance = risks.get('taxCompliance', {})
     legal_ok = (
         not tax_compliance.get('risky', True) 
-        if tax_compliance else None
+        if tax_compliance else False
     )
     
     # PLD OK (basado en contrapartes en lista negra)
     blacklisted = risks.get('blacklistedCounterparties', {})
     pld_ok = (
         blacklisted.get('value', 0) == 0 
-        if blacklisted.get('value') is not None else None
+        if blacklisted.get('value') is not None else False
     )
     
     # Fiscal OK (basado en facturas canceladas)
     canceled_invoices = risks.get('canceledIssuedInvoices', {})
     fiscal_ok = (
         not canceled_invoices.get('risky', True)
-        if canceled_invoices else None
+        if canceled_invoices else False
     )
     
     return {
         "legal_ok": legal_ok,
         "pld_ok": pld_ok,
         "fiscal_ok": fiscal_ok,
-        "peps_ok": None,  # No disponible
-        "profeco_ok": None  # No disponible
+        "peps_ok": False,  # No disponible, devuelve false
+        "profeco_ok": False  # No disponible, devuelve false
     }
 
 
